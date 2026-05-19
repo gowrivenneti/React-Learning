@@ -4,6 +4,5 @@ function Button(){
          <button className="button"> Click me</button>
         </div>
     );
-    
 }
 export default Button;
