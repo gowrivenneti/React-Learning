@@ -32,6 +32,7 @@ function App() {
       <Methods />
       {fruits.length>0 && <ListExample category="Fruits" items={fruits} />}
       {animals.length>0 && <ListExample category="Animals" items={animals} />}
+      
       <Footer />
     </>
   )
