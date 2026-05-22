@@ -50,3 +50,19 @@
   width: 300px;
   border-radius: 5px;
 }
+.category-title{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.item-list{
+  list-style-type: none;
+  padding: 0;
+}
+.item-list li{
+  background-color: lightgray;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: fit-content;
+}
