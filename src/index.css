@@ -66,3 +66,23 @@
   border-radius: 5px;
   max-width: fit-content;
 }
+.counter{
+  text-align: center;
+  margin: 20px;
+}
+.counter-title{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.button-counter{
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  color: rgb(23, 22, 22);
+  background-color: rgb(140, 254, 108);
+  cursor: pointer;
+}
+.button-counter:hover{
+  background-color: darkblue;
+  color: white;
+}
