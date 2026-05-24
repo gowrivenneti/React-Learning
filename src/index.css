@@ -86,3 +86,53 @@
   background-color: darkblue;
   color: white;
 }
+.on-change{
+  margin: 20px;
+  text-align: center;
+}
+.form-control{
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+} 
+.name-input{
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+.comment-input{
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+.count-input{
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+.selection{
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+.shipping{
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+}

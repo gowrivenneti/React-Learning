@@ -2,7 +2,7 @@ import Event from './Event.jsx'
 import Target from './Target.jsx'
 import Hook from './Hook.jsx'
 import Counter from './Counter.jsx'
-
+import OnChange from './OnChange.jsx'
 function App2() {
     return (
         <div>
@@ -10,6 +10,7 @@ function App2() {
             <Event />
             <Hook />
             <Counter />
+            <OnChange />
         </div>
     )
 }
