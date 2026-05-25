@@ -136,3 +136,11 @@
   margin: 10px;
   padding: 10px;
 }
+.updater-function{
+  text-align: center;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: lightblue;
+}
