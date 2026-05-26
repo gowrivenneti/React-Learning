@@ -6,6 +6,7 @@ import OnChange from './OnChange.jsx'
 import UpdaterFunction from './UpdaterFunction.jsx'
 import UpdateObjects from './UpdateObjects.jsx'
 import UpdateArray from './UpdateArray.jsx'
+import UpdateArrInObj from './UpdateObjInArr.jsx'
 function App2() {
     return (
         <div>
@@ -17,6 +18,7 @@ function App2() {
             <UpdaterFunction />
             <UpdateObjects />
             <UpdateArray />
+            <UpdateObjInArr />
         </div>
     )
 }

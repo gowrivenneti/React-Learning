@@ -185,3 +185,26 @@
 .add-food-button:hover{
   background-color: darkgreen;
 }
+.update-arr-in-obj-container{
+  text-align: center;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(229, 242, 188);
+}
+.update-arr-in-obj-title{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.update-arr-in-obj-subtitle{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.update-arr-in-obj-list li{
+  background-color: rgb(252, 203, 203);
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: fit-content;
+}
