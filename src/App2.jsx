@@ -4,6 +4,7 @@ import Hook from './Hook.jsx'
 import Counter from './Counter.jsx'
 import OnChange from './OnChange.jsx'
 import UpdaterFunction from './UpdaterFunction.jsx'
+import UpdateObjects from './UpdateObjects.jsx'
 function App2() {
     return (
         <div>
@@ -13,6 +14,7 @@ function App2() {
             <Counter />
             <OnChange />
             <UpdaterFunction />
+            <UpdateObjects />
         </div>
     )
 }
