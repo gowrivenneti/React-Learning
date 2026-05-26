@@ -144,3 +144,44 @@
   padding: 20px;
   background-color: lightblue;
 }
+.update-array-container{
+  text-align: center;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: lightyellow;
+}
+.update-array-title{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.update-array-subtitle{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.food-list li{
+  background-color: rgb(252, 203, 203);
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: fit-content;
+}
+.food-input{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+.add-food-button{
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+}
+.add-food-button:hover{
+  background-color: darkgreen;
+}
