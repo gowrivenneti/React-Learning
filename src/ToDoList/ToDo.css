@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fb;
+}
+
+.todo-container{
+    width: 500px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.todo-title{
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.todo-input-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.todo-input{
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #dcdcdc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.todo-input:focus{
+    border-color: #007bff;
+}
+
+.todo-add-btn{
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.todo-add-btn:hover{
+    background-color: #0056b3;
+}
+
+.todo-list{
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border-left: 5px solid #007bff;
+}
+
+.todo-task{
+    font-size: 17px;
+    color: #333;
+    font-weight: 500;
+}
+
+.todo-buttons{
+    display: flex;
+    gap: 8px;
+}
+
+.todo-button{
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.remove-btn{
+    background-color: #dc3545;
+}
+
+.remove-btn:hover{
+    background-color: #b02a37;
+}
+
+.up-btn{
+    background-color: #28a745;
+}
+
+.up-btn:hover{
+    background-color: #1f7a33;
+}
+
+.down-btn{
+    background-color: #fd7e14;
+}
+
+.down-btn:hover{
+    background-color: #d96300;
+}
+
+.edit-btn{
+    background-color: #6f42c1;
+}
+
+.edit-btn:hover{
+    background-color: #563099;
+}
+
+@media screen and (max-width: 600px){
+
+    .todo-container{
+        width: 90%;
+        padding: 20px;
+    }
+
+    .todo-input-container{
+        flex-direction: column;
+    }
+
+    .todo-add-btn{
+        width: 100%;
+    }
+
+    .todo-item{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .todo-buttons{
+        flex-wrap: wrap;
+    }
+}
