@@ -1,0 +1,28 @@
+body{
+    background-image: url(../assets/digital.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.digital-container{
+    backdrop-filter: blur(10px);
+}
+.digital-clock{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    height: 80px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 48px;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
