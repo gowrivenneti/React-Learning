@@ -16,7 +16,7 @@ createRoot(document.getElementById('root')).render(
     <App2/>
     <ColorPickerApp />
     <ToDoApp />
-    
+    <DigitalClockApp />
   </StrictMode>,
 )
 

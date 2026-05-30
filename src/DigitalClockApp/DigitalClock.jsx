@@ -15,11 +15,9 @@ function DigitalClock(){
         return `${hours}:${minutes}:${seconds} ${period}`;
     }
     return (
-        <div className="digital-container">
-            <div className="digital-clock">
-                <span>{formatTime()}</span>
-            </div>
-
+        <div>
+            <h1>Digital Clock</h1>
+            <p>{formatTime()}</p>
         </div>
     );
 
