@@ -10,6 +10,7 @@ import UpdateObjInArr from './UpdateObjInArr.jsx'
 import UseEffect from './UseEffect.jsx'
 import WidthHeightUE from './WidthHeightUE.jsx'
 import ComponentA from './ComponentA.jsx'
+import ComponentD from './ComponentD.jsx'
 function App2() {
     return (
         <div>
@@ -25,6 +26,7 @@ function App2() {
             <UseEffect />
             <WidthHeightUE />
             <ComponentA />
+            <ComponentD />
         </div>
     )
 }
