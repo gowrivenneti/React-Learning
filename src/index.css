@@ -209,3 +209,16 @@
   border-radius: 5px;
   max-width: fit-content;
 }
+.with-props{
+  text-align: center;
+  color: rgb(24, 23, 23);
+  background-color: rgb(243, 202, 202);
+}
+.box-1{
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(243, 202, 202);
+}

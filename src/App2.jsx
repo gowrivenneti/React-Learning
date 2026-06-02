@@ -9,6 +9,7 @@ import UpdateArray from './UpdateArray.jsx'
 import UpdateObjInArr from './UpdateObjInArr.jsx'
 import UseEffect from './UseEffect.jsx'
 import WidthHeightUE from './WidthHeightUE.jsx'
+import ComponentA from './ComponentA.jsx'
 function App2() {
     return (
         <div>
@@ -23,6 +24,7 @@ function App2() {
             <UpdateObjInArr />
             <UseEffect />
             <WidthHeightUE />
+            <ComponentA />
         </div>
     )
 }
