@@ -11,6 +11,7 @@ import UseEffect from './UseEffect.jsx'
 import WidthHeightUE from './WidthHeightUE.jsx'
 import ComponentA from './ComponentA.jsx'
 import ComponentD from './ComponentD.jsx'
+import UseRef from './UseRef.jsx'
 function App2() {
     return (
         <div>
@@ -27,6 +28,7 @@ function App2() {
             <WidthHeightUE />
             <ComponentA />
             <ComponentD />
+            <UseRef />
         </div>
     )
 }
