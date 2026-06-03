@@ -1,0 +1,52 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stopwatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+.time{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3em;
+    margin: 30px;
+    padding: 10px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.btn-start, .btn-stop, .btn-reset{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-start{
+    background-color: green;
+    color: white;
+}
+.btn-stop{
+    background-color: red;
+    color: white;
+}
+.btn-reset{
+    background-color: gray;
+    color: white;
+}
+.btn-start:hover{
+    background-color: darkgreen;
+}
+.btn-stop:hover{
+    background-color: darkred;
+}
+.btn-reset:hover{
+    background-color: darkgray;
+}
