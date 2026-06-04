@@ -1,4 +1,4 @@
-## 📘 What is React?
+# 📘 What is React?
 
 React is a JavaScript library used to build interactive and dynamic user interfaces.
 
