@@ -35,7 +35,7 @@ function StopWatch() {
         <div className="stopwatch">
             <p className="time">{formatTime(time)}</p>
             <div className="buttons">
-            <button className="btn-start" onClick={handleStart}>Start</button>
+            <button className="btn-start" onClick={handleStart}>start</button>
             <button className="btn-stop" onClick={handleStop}>Stop</button>
             <button className="btn-reset" onClick={handleReset}>Reset</button>
             </div>
